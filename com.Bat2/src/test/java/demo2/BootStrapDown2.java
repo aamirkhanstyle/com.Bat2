@@ -29,6 +29,7 @@ public class BootStrapDown2 {
 		for(WebElement ele:DropdownList) {
 			String value=ele.getText();
 			if(value.equals("About Us")) {
+				//change for gitHub
 		//Thread.sleep(3000);
 				ele.click();
 				break;
