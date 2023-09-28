@@ -30,7 +30,8 @@ public class BootStrapDown2 {
 			String value=ele.getText();
 			if(value.equals("About Us")) {
 				//change for gitHub
-		//Thread.sleep(3000);
+				//change for gitHub2
+		//Thread.sleep(3000);   
 				ele.click();
 				break;
 			}
